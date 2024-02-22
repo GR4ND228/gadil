@@ -2,8 +2,6 @@ import telebot
 import sqlite3
 import random
 from datetime import datetime, timedelta
-bonus7_date = []
-bonus1_date = []
 bet = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]  # список ставок
 #бд
 conn = sqlite3.connect('database.db',check_same_thread=False)
